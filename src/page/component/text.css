@@ -1,0 +1,9 @@
+section>white {
+    width: 80%;
+    height: 100%;
+    position: relative;
+    max-height: 90vh;
+    margin: 10px;
+    background: var(--white);
+    overflow: hidden;
+}
