@@ -17,6 +17,7 @@ function Page1() {
                     maxHeight: '100%',
                     objectFit: 'cover',
                 }}></img>
+                
             </div>
         </div>
     )

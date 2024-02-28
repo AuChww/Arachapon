@@ -1,7 +1,7 @@
 import React from 'react';
 import "./main.css";
-import Page1 from './component/page1';
-import Page2 from './component/page2';
+import Page1 from './pages/page1';
+import Page2 from './pages/page2';
 import { useRef } from "react";
 import {
     motion,
@@ -23,8 +23,7 @@ function Image({ id }: { id: number }) {
 
 
     return (
-        <section>
-
+        <section class="">
             {id === 1 ?
                 <div class="">
                     <Page1 />

@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container takes up the full height of the viewport */
+}
+
+.navbar {
+  flex: 0 0 auto; /* Allow the navbar to grow and shrink as needed */
+}
+
+.main-content {
+  flex: 1; /* Allow the main content to take up remaining space */
+}
+
+@media screen and (max-width: 512px) {
+  .app-container {
+    flex-direction: column;
+  }
+}
