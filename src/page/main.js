@@ -2,6 +2,7 @@ import React from 'react';
 import "./main.css";
 import Page1 from './pages/page1';
 import Page2 from './pages/page2';
+import Page3 from './pages/page3';
 import { useRef } from "react";
 import {
     motion,
@@ -30,10 +31,16 @@ function Image({ id }: { id: number }) {
                 </div>
                 : null}
             {id === 2 ?
-                <Page2 />
+                <Page3 />
                 : null}
             {id === 3 ?
-                <div></div>
+                <Page3 />
+                : null}
+            {id === 4 ?
+                <Page3 />
+                : null}
+            {id === 5 ?
+                <Page2 />
                 : null}
         </section>
     );
@@ -49,7 +56,7 @@ export default function Main() {
 
     return (
         <>
-            {[1, 2, 3].map((image) => (
+            {[1, 2, 3, 4, 5].map((image) => (
                 <Image id={image} />
             ))}
             <motion.div className="progress" style={{ scaleX }} />

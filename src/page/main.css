@@ -151,24 +151,24 @@ section {
     perspective: 500px;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 420px) {
     /* Medium screen size (md): set height to 60vh */
     section {
-        height: 40vh;
+        height: 30vh;
     }
 }
 
 @media (min-width: 512px) {
     /* Medium screen size (md): set height to 60vh */
     section {
-        height: 50vh;
+        height: 40vh;
     }
 }
 
 @media (min-width: 768px) {
     /* Medium screen size (md): set height to 60vh */
     section {
-        height: 60vh;
+        height: 55vh;
     }
 }
 
